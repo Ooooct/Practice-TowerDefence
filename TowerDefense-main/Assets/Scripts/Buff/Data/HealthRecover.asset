@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96111637768814d448ee653ee4a956c6, type: 3}
+  m_Name: HealthRecover
+  m_EditorClassIdentifier: 
+  m_jsonFile: {fileID: 0}
+  duration: -1
+  stacks: -1
+  maxStacks: -1
+  tickInterval: 1
+  priority: 0
+  m_effects:
+  - {fileID: 11400000, guid: eb1bf7fb8702f9647bbc2e73a005d8e6, type: 2}
+  m_confidedBuffs: []
+  m_sameStrategy: 3

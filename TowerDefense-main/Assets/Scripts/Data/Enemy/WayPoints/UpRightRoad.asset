@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b003dd1b76bf94f4594f22e87fbaa306, type: 3}
+  m_Name: UpRightRoad
+  m_EditorClassIdentifier: 
+  m_jsonFile: {fileID: 4900000, guid: 82ddce72364166c44b08b6f225e9752c, type: 3}
+  wayPoints:
+  - {x: 13.023589, y: -0.21000087, z: 15.75312}
+  - {x: 15.098011, y: -0.21000123, z: 3.7953205}
+  - {x: 7.6630416, y: -0.21000284, z: -5.007536}
+  - {x: -1.4710503, y: -0.20999973, z: -10.128232}
+  - {x: -6.4279337, y: -0.210001, z: -8.433941}
+  - {x: -19, y: 0.25, z: 2.5}

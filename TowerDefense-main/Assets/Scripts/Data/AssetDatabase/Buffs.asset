@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b18330886372ac499bb319b81c2938c, type: 3}
+  m_Name: Buffs
+  m_EditorClassIdentifier: 
+  m_assets:
+  - key: Shield
+    asset: {fileID: 11400000, guid: 07694e41b09b555409a17ced8be1ba5d, type: 2}
+  - key: AOEBullet
+    asset: {fileID: 11400000, guid: 42ee7f1568ad56649982d61e35b40244, type: 2}
+  - key: Slow
+    asset: {fileID: 11400000, guid: 6e8419cc10c391947ba3638ed03472bb, type: 2}
+  - key: AOETower_1
+    asset: {fileID: 11400000, guid: 120235d090b90b24e99146427cb6b611, type: 2}
+  - key: AOETower_2
+    asset: {fileID: 11400000, guid: b05782e14f34fe543ae6a3dabe4a8e61, type: 2}
+  - key: AOETower_3
+    asset: {fileID: 11400000, guid: c4ed4da5d33d1d74f94feb24d054ecc0, type: 2}
+  - key: Burn
+    asset: {fileID: 11400000, guid: c781be524a0091e4b97fec6218f04b12, type: 2}
+  - key: AddShootSpeed
+    asset: {fileID: 11400000, guid: 1ad3d637e4a631b4b93e150894bce0fd, type: 2}
+  - key: AddCritRate
+    asset: {fileID: 11400000, guid: 5e5adb738033a6d42868052722d24c8c, type: 2}
+  - key: CarryAddCrit
+    asset: {fileID: 11400000, guid: 1e312393e63d4f64bbe155481ba40ceb, type: 2}
+  - key: Penetrate
+    asset: {fileID: 11400000, guid: e14755787e47fff499342d182405bcfb, type: 2}

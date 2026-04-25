@@ -1,0 +1,12 @@
+{
+  "EnemiesHaveSeen": [
+    "DefaltData",
+    "DefaltData2",
+    "Gargoyle",
+    "Zombie",
+    "Slime",
+    "Fast Runner",
+    "Witch"
+  ],
+  "HighestWaveReached": 4
+}

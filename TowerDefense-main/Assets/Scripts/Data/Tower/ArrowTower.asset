@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffa474c0a7d66a941a748ac385ab0711, type: 3}
+  m_Name: ArrowTower
+  m_EditorClassIdentifier: 
+  m_jsonFile: {fileID: 4900000, guid: ec1c897387b76be4f8a26a0ba9f853c8, type: 3}
+  m_levelData:
+  - name: Arrow
+    cost: 100
+    basicAttack: 50
+    attackRange: 10
+    basicAttackCoolDown: 1.5
+    criticalRate: 0.1
+    damageType: 0
+    towerViewPrefab: {fileID: 1661508598614612735, guid: 89b93f572a01aae4a8fac0e915718159, type: 3}
+    buffs: []
+  - name: Arrow
+    cost: 140
+    basicAttack: 60
+    attackRange: 15
+    basicAttackCoolDown: 1
+    criticalRate: 0.2
+    damageType: 0
+    towerViewPrefab: {fileID: 1661508598614612735, guid: 4c4138dcf32874c4f86a9bcdf1ce4279, type: 3}
+    buffs:
+    - {fileID: 11400000, guid: e14755787e47fff499342d182405bcfb, type: 2}
+  - name: Arrow
+    cost: 180
+    basicAttack: 90
+    attackRange: 18
+    basicAttackCoolDown: 0.75
+    criticalRate: 0.2
+    damageType: 0
+    towerViewPrefab: {fileID: 1661508598614612735, guid: a11b1b2a475cb354db3f59d29f4e3efc, type: 3}
+    buffs:
+    - {fileID: 11400000, guid: e14755787e47fff499342d182405bcfb, type: 2}
+    - {fileID: 11400000, guid: 1e312393e63d4f64bbe155481ba40ceb, type: 2}

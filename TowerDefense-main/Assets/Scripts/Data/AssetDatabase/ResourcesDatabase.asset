@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e532236fa60460a459b2913b31e2887a, type: 3}
+  m_Name: ResourcesDatabase
+  m_EditorClassIdentifier: 
+  m_categories:
+  - key: Towers
+    assets: {fileID: 11400000, guid: 9506c619df55058478a4fe2df6278164, type: 2}
+  - key: WayPoints
+    assets: {fileID: 11400000, guid: 5ed1b7a8a51f969409a224595f8421c6, type: 2}
+  - key: Enemy
+    assets: {fileID: 11400000, guid: 1baa666c76a024a43b8cc7c38388f455, type: 2}
+  - key: Buff
+    assets: {fileID: 11400000, guid: a75c21df1cee26940b80594127c0927a, type: 2}
+  - key: HitStrategy
+    assets: {fileID: 11400000, guid: 4aa41ff2424c5ef4f86ba1ccf1338c18, type: 2}
+  - key: ViewPrefab
+    assets: {fileID: 11400000, guid: 0885d269910f37a4fb331800ea270618, type: 2}
+  - key: Prefab
+    assets: {fileID: 11400000, guid: 455107384d499674fb0b1ac2d209de40, type: 2}

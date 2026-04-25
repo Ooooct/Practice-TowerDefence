@@ -1,0 +1,141 @@
+{
+  "waveData": [
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Slime.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/UpLeftRoad.asset",
+          "spawnerIndex": 0,
+          "spawnCount": 100,
+          "spawnInterval": 1.0,
+          "spawnDelay": 0.0
+        }
+      ],
+      "spawnDelay": 30
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Slime.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/UpLeftRoad.asset",
+          "spawnerIndex": 0,
+          "spawnCount": 20,
+          "spawnInterval": 0.5,
+          "spawnDelay": 0.0
+        }
+      ],
+      "spawnDelay": 15
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "Enemy/Default",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/UpLeftRoad.asset",
+          "spawnerIndex": 0,
+          "spawnCount": 5,
+          "spawnInterval": 1.0,
+          "spawnDelay": 5.0
+        },
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Slime.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/RightDirectly.asset",
+          "spawnerIndex": 1,
+          "spawnCount": 10,
+          "spawnInterval": 0.5,
+          "spawnDelay": 0.0
+        }
+      ],
+      "spawnDelay": 15
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Slime.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/RightDirectly.asset",
+          "spawnerIndex": 1,
+          "spawnCount": 10,
+          "spawnInterval": 1.0,
+          "spawnDelay": 5.0
+        },
+        {
+          "enemyDataReference": "Enemy/Default",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/RightDirectly.asset",
+          "spawnerIndex": 1,
+          "spawnCount": 10,
+          "spawnInterval": 2.0,
+          "spawnDelay": 0.0
+        }
+      ],
+      "spawnDelay": 15
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Orc.asset",
+          "wayPointsDataReference": "WayPoints/Default",
+          "spawnerIndex": 0,
+          "spawnCount": 10,
+          "spawnInterval": 2.0,
+          "spawnDelay": 0.0
+        }
+      ],
+      "spawnDelay": 15
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Witch.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/RightDirectly.asset",
+          "spawnerIndex": 1,
+          "spawnCount": 10,
+          "spawnInterval": 1.0,
+          "spawnDelay": 0.0
+        },
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Goblin.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/UpLeftRoad.asset",
+          "spawnerIndex": 0,
+          "spawnCount": 30,
+          "spawnInterval": 0.75,
+          "spawnDelay": 5.0
+        }
+      ],
+      "spawnDelay": 15
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Gargoyle.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/RightUpRoad.asset",
+          "spawnerIndex": 1,
+          "spawnCount": 1,
+          "spawnInterval": 2.0,
+          "spawnDelay": 0.0
+        },
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Gargoyle.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/UpLeftRoad.asset",
+          "spawnerIndex": 0,
+          "spawnCount": 1,
+          "spawnInterval": 1.0,
+          "spawnDelay": 5.0
+        }
+      ],
+      "spawnDelay": 15
+    },
+    {
+      "spawnData": [
+        {
+          "enemyDataReference": "path:Assets/Scripts/Data/Enemy/EnemyData/Fast Runner.asset",
+          "wayPointsDataReference": "path:Assets/Scripts/Data/Enemy/WayPoints/RightUpRoad.asset",
+          "spawnerIndex": 1,
+          "spawnCount": 1,
+          "spawnInterval": 1.0,
+          "spawnDelay": 0.0
+        }
+      ],
+      "spawnDelay": 15
+    }
+  ],
+  "waitTimeBeforeStart": 0
+}

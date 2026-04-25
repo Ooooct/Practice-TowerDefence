@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b18330886372ac499bb319b81c2938c, type: 3}
+  m_Name: HitStrategiesData
+  m_EditorClassIdentifier: 
+  m_assets:
+  - key: Default
+    asset: {fileID: 11400000, guid: f03cb4a34ffbc084a940324ba90c9176, type: 2}
+  - key: Penetrate
+    asset: {fileID: 11400000, guid: 3d70f4a9715cf13498e5726b2fce5c88, type: 2}
+  - key: AOEBullet
+    asset: {fileID: 11400000, guid: d7be136318e5b334da168459a7a0a2c3, type: 2}
+  - key: AOETower_1
+    asset: {fileID: 11400000, guid: 13ca3834d85ae8a43855ca1ae881ae6b, type: 2}
+  - key: AOETower_2
+    asset: {fileID: 11400000, guid: 26a20d8cec23faf419bb505ef47d3184, type: 2}
+  - key: AOETower_3
+    asset: {fileID: 11400000, guid: 4e01fe710ccf1f4459facce66c59ad79, type: 2}

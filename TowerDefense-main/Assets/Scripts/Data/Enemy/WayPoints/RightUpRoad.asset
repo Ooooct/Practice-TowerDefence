@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b003dd1b76bf94f4594f22e87fbaa306, type: 3}
+  m_Name: RightUpRoad
+  m_EditorClassIdentifier: 
+  m_jsonFile: {fileID: 4900000, guid: 82ddce72364166c44b08b6f225e9752c, type: 3}
+  wayPoints:
+  - {x: 33.45711, y: -0.21001324, z: -3.2559204}
+  - {x: 28.018215, y: -0.2100075, z: -5.336881}
+  - {x: 18.157768, y: -0.21000229, z: -13.010282}
+  - {x: -2.9245796, y: -0.21000016, z: -10.5534315}
+  - {x: 13.589861, y: -0.21000153, z: 0.3292141}
+  - {x: 15.417988, y: -0.21000169, z: 7.546133}
+  - {x: 12.95098, y: -0.21000084, z: 15.986833}
+  - {x: -1.4684601, y: -0.21305084, z: 12.265554}
+  - {x: -11.30101, y: -0.21305084, z: -3.5293522}
+  - {x: -19, y: 0.25, z: 2.5}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79725568eb7a4440a651fb644191e68, type: 3}
+  m_Name: Witch
+  m_EditorClassIdentifier: 
+  m_jsonFile: {fileID: 4900000, guid: 6ed79087e55c8eb42a6fb1918a077af8, type: 3}
+  maxHealth: 100
+  goldReward: 10
+  armor: 0
+  speed: 3
+  buffs:
+  - {fileID: 11400000, guid: 71cf6a386afbe9047bfa575bbc052311, type: 2}
+  immuneBuffs: []
+  damageReduce: []
+  viewPrefab: {fileID: 8615664961156443078, guid: deacb924969a4a949aaa33f3b4e466f7, type: 3}
+  Describe: 
+  size: 1
