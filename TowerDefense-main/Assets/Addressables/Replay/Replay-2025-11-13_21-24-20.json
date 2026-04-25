@@ -1,0 +1,30 @@
+{
+  "randomSeed": -338761486,
+  "recordTime": "2025-11-13 21:23:42",
+  "events": [
+    {
+      "timestamp": 17.9940357,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Arrow",
+      "towerSpotId": "Arrow",
+      "towerLevel": 0,
+      "towerName": "Arrow"
+    },
+    {
+      "timestamp": 22.8618679,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Arrow",
+      "towerSpotId": "Nothing",
+      "towerLevel": 0,
+      "towerName": "Arrow"
+    },
+    {
+      "timestamp": 61.8977928,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "AOE",
+      "towerSpotId": "Nothing",
+      "towerLevel": 0,
+      "towerName": "AOE"
+    }
+  ]
+}

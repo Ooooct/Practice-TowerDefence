@@ -1,0 +1,42 @@
+{
+  "levelData": [
+    {
+      "name": "Arrow",
+      "cost": 100,
+      "basicAttack": 50.0,
+      "attackRange": 10.0,
+      "basicAttackCoolDown": 2.0,
+      "criticalRate": 0.1,
+      "damageType": "Normal",
+      "towerViewPrefabReference": "path:Assets/Art/viewPrefabs/Towers/ArrowTower_0.prefab",
+      "buffReferences": []
+    },
+    {
+      "name": "Arrow",
+      "cost": 140,
+      "basicAttack": 60.0,
+      "attackRange": 15.0,
+      "basicAttackCoolDown": 2.0,
+      "criticalRate": 0.2,
+      "damageType": "Normal",
+      "towerViewPrefabReference": "path:Assets/Art/viewPrefabs/Towers/ArrowTower_1.prefab",
+      "buffReferences": [
+        "Buff/Penetrate"
+      ]
+    },
+    {
+      "name": "Arrow",
+      "cost": 180,
+      "basicAttack": 90.0,
+      "attackRange": 18.0,
+      "basicAttackCoolDown": 1.5,
+      "criticalRate": 0.2,
+      "damageType": "Normal",
+      "towerViewPrefabReference": "path:Assets/Art/viewPrefabs/Towers/ArrowTower_2.prefab",
+      "buffReferences": [
+        "Buff/Penetrate",
+        "Buff/CarryAddCrit"
+      ]
+    }
+  ]
+}

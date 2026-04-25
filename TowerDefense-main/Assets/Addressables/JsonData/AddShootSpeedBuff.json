@@ -1,0 +1,11 @@
+{
+  "duration": 30.0,
+  "stacks": -1,
+  "maxStacks": -1,
+  "tickInterval": 0.0,
+  "effectReferences": [
+    "path:Assets/Scripts/Buff/buffEffects/Data/AddTowerShootSpeedEffect.asset"
+  ],
+  "conflictConfigs": [],
+  "sameStrategy": 2
+}

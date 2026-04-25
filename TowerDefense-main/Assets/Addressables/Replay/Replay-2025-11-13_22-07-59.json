@@ -1,0 +1,46 @@
+{
+  "randomSeed": -345262667,
+  "recordTime": "2025-11-13 22:06:39",
+  "events": [
+    {
+      "timestamp": 3.17512155,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Arrow",
+      "towerSpotId": "Nothing",
+      "towerLevel": 0,
+      "towerName": "Arrow"
+    },
+    {
+      "timestamp": 11.129528,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "AOE",
+      "towerSpotId": "Nothing",
+      "towerLevel": 0,
+      "towerName": "AOE"
+    },
+    {
+      "timestamp": 13.1945553,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Default",
+      "towerSpotId": "Arrow",
+      "towerLevel": 0,
+      "towerName": "拆除"
+    },
+    {
+      "timestamp": 33.5974159,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Snow",
+      "towerSpotId": "Snow",
+      "towerLevel": 0,
+      "towerName": "Snow"
+    },
+    {
+      "timestamp": 68.06561,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "AOE",
+      "towerSpotId": "Nothing",
+      "towerLevel": 0,
+      "towerName": "AOE"
+    }
+  ]
+}

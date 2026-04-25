@@ -1,0 +1,11 @@
+{
+  "maxHealth": 10.0,
+  "goldReward": 5,
+  "armor": 0.0,
+  "speed": 5.0,
+  "wayPointsDataReference": "WayPoints/Default",
+  "buffReferences": [],
+  "immuneBuffReferences": [],
+  "viewPrefabReference": "path:Assets/Art/viewPrefabs/Enemies/DefaultEnemy.prefab",
+  "size": 1.0
+}

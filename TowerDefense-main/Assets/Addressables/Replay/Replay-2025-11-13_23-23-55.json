@@ -1,0 +1,16 @@
+{
+  "randomSeed": -1342734338,
+  "recordTime": "2025-11-13 23:23:43",
+  "events": [
+    {
+      "timestamp": 2.19192028,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Snow",
+      "mousePositionX": 961.201233,
+      "mousePositionY": 754.4383,
+      "mousePositionZ": 0.0,
+      "towerLevel": 0,
+      "towerName": "Snow"
+    }
+  ]
+}

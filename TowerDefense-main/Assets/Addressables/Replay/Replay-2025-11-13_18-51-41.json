@@ -1,0 +1,38 @@
+{
+  "randomSeed": 1358771028,
+  "recordTime": "2025-11-13 18:49:03",
+  "events": [
+    {
+      "timestamp": 1.76350212,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "AOE",
+      "towerSpotId": "Default",
+      "towerLevel": 0,
+      "towerName": "AOE"
+    },
+    {
+      "timestamp": 5.26185942,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Snow",
+      "towerSpotId": "Snow",
+      "towerLevel": 0,
+      "towerName": "Snow"
+    },
+    {
+      "timestamp": 7.53636169,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "AOE",
+      "towerSpotId": "Default",
+      "towerLevel": 0,
+      "towerName": "AOE"
+    },
+    {
+      "timestamp": 9.064519,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Arrow",
+      "towerSpotId": "Default",
+      "towerLevel": 0,
+      "towerName": "Arrow"
+    }
+  ]
+}

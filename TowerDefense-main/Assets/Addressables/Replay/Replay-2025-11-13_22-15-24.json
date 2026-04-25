@@ -1,0 +1,22 @@
+{
+  "randomSeed": 276766211,
+  "recordTime": "2025-11-13 22:14:50",
+  "events": [
+    {
+      "timestamp": 2.4960072,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "AOE",
+      "towerSpotId": "Nothing",
+      "towerLevel": 0,
+      "towerName": "AOE"
+    },
+    {
+      "timestamp": 3.68588161,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Snow",
+      "towerSpotId": "Snow",
+      "towerLevel": 0,
+      "towerName": "Snow"
+    }
+  ]
+}

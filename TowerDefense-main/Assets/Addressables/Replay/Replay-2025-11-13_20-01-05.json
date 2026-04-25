@@ -1,0 +1,14 @@
+{
+  "randomSeed": 1535329213,
+  "recordTime": "2025-11-13 20:00:56",
+  "events": [
+    {
+      "timestamp": 1.2170682,
+      "eventType": "TryBuildTower",
+      "towerDataKey": "Arrow",
+      "towerSpotId": "Arrow",
+      "towerLevel": 0,
+      "towerName": "Arrow"
+    }
+  ]
+}
