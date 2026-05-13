@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   pull_request:
   push:
-    branches: # Specify your branches here
-      - main # The 'main' branch
-      - 'releases/*' # The release branches
+    branches:
+      - main
+      - 'releases/*'
 
 jobs:
   qodana:
@@ -17,12 +17,32 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
-          fetch-depth: 0  # a full history is required for pull request analysis
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      #################################################################
+      # 新增步骤 1: 运行 Unity 并同步项目文件 (.sln)
+      # 这一步会生成 Qodana 运行所需的地图
+      #################################################################
+      - name: Generate Unity Project Files
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }} # 你需要在 GitHub Secrets 中配置这个
+        with:
+          projectPath: .
+          # 关键命令：触发 Unity 生成 .sln 和 .csproj
+          buildMethod: UnityEditor.SyncVS.SyncSolution 
+          targetPlatform: StandaloneWindows64
+
+      #################################################################
+      # 修改步骤 2: 运行 Qodana 扫描
+      #################################################################
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2026.1
         with:
           pr-mode: false
+          # 如果你的 .sln 文件名不是默认的，取消下面 args 的注释并修改
+          # args: --solution,YourProjectName.sln
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_2119182887 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
