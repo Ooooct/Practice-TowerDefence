@@ -27,5 +27,5 @@ jobs:
           # 如果你的 .sln 文件名不是默认的，取消下面 args 的注释并修改
           # args: --solution,YourProjectName.sln
         env:
-          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_2119182887 }}
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
